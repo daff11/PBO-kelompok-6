@@ -1,6 +1,5 @@
 public class Buku extends Rak{
     private String Pengarang;
-    private String ISBN;
     private int TahunMasuk;
 
     public Buku(int noRak, String Nama, String Penerbit, String TanggalTerbit, 
