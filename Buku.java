@@ -13,10 +13,6 @@ public class Buku extends Rak{
         return Pengarang;
     }
 
-    public String getISBN() {
-        return ISBN;
-    }
-
     public int getTahunMasuk() {
         return TahunMasuk;
     }
