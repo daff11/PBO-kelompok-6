@@ -73,6 +73,7 @@ public class Main {
                    }
                 break;
             }
+            
             case '3': {
                 Rak k1 = new Koran(1, "Argentina kalah 2-1 dari Arab Saudi", "Kompas", "22/11/2022", "Harian");
                 Rak k2 = new Koran(2, "Gempa di Cianjur Menewaskan Ratusan Korban Jiwa", "Radar Bogor", "21/11/2022", "Harian");
