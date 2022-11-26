@@ -3,14 +3,6 @@ public abstract class Rak {
     protected String Nama;
     protected String Penerbit;
     protected String TanggalTerbit;
-    /* 
-    private Buku buku;
-    private Koran koran;
-    private Majalah majalah;
-    */
-    public Rak() {
-        System.out.println("Kosong");
-    }
 
     public Rak(int noRak, String Nama, String Penerbit, String TanggalTerbit) {
         this.noRak = noRak;
@@ -30,5 +22,6 @@ public abstract class Rak {
     public String getTanggalTerbit() {
         return TanggalTerbit;
     }
+    public abstract void display(String Nama);
     public abstract void display();
 }

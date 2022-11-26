@@ -23,11 +23,16 @@ public class Buku extends Rak{
     }
 
     public void display() {
-        System.out.println(getnoRak()+". Nama\t\t  : "+getNama());
+        System.out.println("-------------------------------------------------------");
+        System.out.println("   Judul          : "+getNama());
         System.out.println("   Penerbit       : "+getPenerbit());
         System.out.println("   Tanggal Terbit : "+getTanggalTerbit());
         System.out.println("   Pengarang      : "+getPengarang());
         System.out.println("   Tahun Masuk    : "+getTahunMasuk());
         System.out.println("-------------------------------------------------------");
+    }
+
+    public void display(String Nama) {
+        System.out.println("=="+getnoRak()+". "+getNama());
     }
 }

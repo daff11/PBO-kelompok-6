@@ -18,11 +18,16 @@ public class Majalah extends Rak{
     }
 
     public void display() {
-        System.out.println(getnoRak()+". Nama\t\t  : "+getNama());
+        System.out.println("-------------------------------------------------------");
+        System.out.println("   Judul          : "+getNama());
         System.out.println("   No. Edisi      : "+getnoEdisi());
         System.out.println("   Penerbit       : "+getPenerbit());
         System.out.println("   Tanggal Terbit : "+getTanggalTerbit());
         System.out.println("   Jenis Terbit   : "+getJenisTerbit());
         System.out.println("-------------------------------------------------------");
+    }
+
+    public void display(String Nama) {
+        System.out.println("=="+getnoRak()+". "+getNama());
     }
 }
