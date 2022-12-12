@@ -22,7 +22,7 @@ public class Main {
                  Rak buku1 = new Buku(1,"Mammals","Airlangga","18/11/2018","Celine Christine",2020);
                  Rak buku2 = new Buku(2,"World War II","Gramedia","13/08/2002","Dr.Edward Coumann",2021);
                  Rak buku3 = new Buku(3,"Java Fast Learning","Edu","06/02/2020","John Vardy",2022);
-                 System.out.println("\n== Daftar Buku ==");
+                 System.out.println("\n== Daftar Buku =="); 
                  buku1.display(buku1.getNama()); 
                  buku2.display(buku2.getNama()); 
                  buku3.display(buku3.getNama());
